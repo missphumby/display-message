@@ -1,0 +1,49 @@
+#container{
+    display: block;
+    width: 600px;
+    height: 600px;
+    border: solid 1px black;
+    padding: 20px; 
+    text-align: center;
+    object-position: center;
+    align-self: center;
+    background-color:darkcyan;
+        align-items: center;
+    
+}
+#container2{
+    width: 540px;
+    height: 350px;
+    display: block;
+    border: 1px solid;
+    align-self: center;
+    background-color:gainsboro;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 4%;
+    margin-right: 0 !important;
+}
+h4, h5{
+    font-size: 30px;
+    margin-top: 12px;
+}
+#messageBtn{
+    padding: 10px;
+    height: 55px;
+}
+#submitBtn{
+    padding: 12px 20px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 1.0rem;
+}
+
+#submitBtn:hover{
+    border: 3px inset lightblue;
+}
+
+#messagebtn-content{
+    line-height: 2px;
+        font-size: 25px;
+    color: red;
+}
